@@ -1,0 +1,21 @@
+-Music Notation Software-
+
+Steps in order to make the code run on your pc:
+
+1- download the following:
+	1. python - https://www.python.org/downloads/
+	2. pycharm - https://www.jetbrains.com/pycharm/download/#section=windows
+	3. opencv - https://opencv.org/releases/
+
+2- in pycharm go to settings (Ctrl+Alt+S), then navigate to Project - Python Interpreter and add the following packages:
+	1. opencv-python
+	2. mediapipe
+	3. numpy
+
+3- add the file "chapter 1" to your project run it and choose a video.
+
+4- you will be asked to click on the top border of the white keys as shown on the demo, then press any key to continue.
+
+5- in the first output video you see is shown the detection lines, in the second one we colored the pressed keys.
+
+6- after the last video ends you will find a file in the project folder containing the names of the pressed keys.
